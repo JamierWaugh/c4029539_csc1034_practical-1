@@ -5,8 +5,8 @@ from direct.actor.Actor import Actor
 from math import pi, sin, cos
 #All imports above
 
-class MyApp(ShowBase):
-    def __init__(self):
+class WalkingPanda(ShowBase):
+    def __init__(self, no_rotate=False):
         ShowBase.__init__(self)
 
         #Load environment model
@@ -20,7 +20,8 @@ class MyApp(ShowBase):
         self.scene.setPos(-8,42,0)
 
         #Add the spinCameraTask procedure to the task manager to spin camera
-        self.taskMgr.add(self.spinCameraTask, "SpinCameraTask")
+        if no_rotate == False:
+            self.taskMgr.add(self.spinCameraTask, "SpinCameraTask")
 
         #Load and transform the panda actor
         self.pandaActor = Actor("models/panda-model",
@@ -38,7 +39,3 @@ class MyApp(ShowBase):
         self.camera.setHpr(angleDegrees,0,0)
         return Task.cont
 
-
-app = MyApp()
-app.run()
-    #Starts panda environment

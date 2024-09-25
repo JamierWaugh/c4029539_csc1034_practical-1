@@ -1,4 +1,4 @@
-from walking_panda.cli import cli
+from cli import cliproc
 
 if __name__ == "__main__":
-    cli()
+    cliproc()
