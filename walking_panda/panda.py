@@ -2,6 +2,8 @@ from direct.showbase.ShowBase import ShowBase
 from direct.task import Task
 from direct.actor.Actor import Actor
 
+music = "../src/windy-forest-and-birds-ambience-211720.wav"
+
 from math import pi, sin, cos
 
 #All imports above
@@ -20,7 +22,7 @@ class WalkingPanda(ShowBase):
         self.scene.setPos(-8,42,0)
 
         #Load background music
-        self.background_music = self.loader.loadMusic("Panda-project/src/windy-forest-and-birds-ambience-211720.mp3")
+        self.background_music = self.loader.loadMusic(music)
         # Set background music to loop
         self.background_music.setLoop(True)
         # Start playing background music
