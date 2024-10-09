@@ -15,5 +15,5 @@ def cliproc(): #Renamed to avoid error with calling imports as names clashed
                         ,action = "store_true") #Baby and no rotate
     args = parser.parse_args() #Parse all arguments called
 
-    walking = panda.WalkingPanda(**vars(args))
-    walking.run()
+    walking = panda.WalkingPanda(**vars(args)) #load all arguments into panda
+    walking.run() #run the software
