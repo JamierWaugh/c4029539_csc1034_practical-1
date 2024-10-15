@@ -2,7 +2,7 @@ from direct.showbase.ShowBase import ShowBase
 from direct.task import Task
 from direct.actor.Actor import Actor
 
-music = "../src/windy-forest-and-birds-ambience-211720.wav"
+music = "../src/windy-forest-and-birds-ambience-211720.mp3"
 
 from math import pi, sin, cos
 

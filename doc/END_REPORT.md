@@ -11,7 +11,7 @@ Software
 ---
 For version control, I had to learn how to push to a git repository, I did this using git bash. This took awhile to get the hang of but I feel confident in creating and updating git repositories now using this software. Furthermore, I enjoyed the more professional formating with all the documentation and requirements I had to read through and produce as it gave me a glimpse into what a future career may look like.
 
-Markdown, I have never used markdown before and have found it difficult to learn but I believe I am starting to understand it. I have learnt its use by creating a more legible reading experience for repositories than just using text files.
+Markdown, I have never used markdown before and have found it difficult to learn but I believe I am starting to understand it. I have learnt its use by creating a more legible reading experience for repositories than just using text files compared to file formats such as word as it contains version history.
 
 For the programming:
 
